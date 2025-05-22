@@ -4,14 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afa94d2d-1cdf-413e-92ad-96f7b89cf8db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="afa94d2d-1cdf-413e-92ad-96f7b89cf8db" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/customers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/initial_customers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/users.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/vehicles_with_plates.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/authentication/LoginManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/entities/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/entities/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/entities/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/entities/Rental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/services/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/services/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/services/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/services/RentalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/CarFormFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/CarHistoryFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/CarSearchFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/CustomerFormFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/CustomerHistoryFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/CustomerSearchFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/LoginFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/MainMenuFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/RentalFormFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gui/ReturnCarFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/login_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AuthLoginUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CarServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EmployeeServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RentalServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RentalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +67,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/grigo/IdeaProjects/CarRental/src/main/resources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/grigo/IdeaProjects/CarRental/src/main/resources&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\grigo\IdeaProjects\CarRental\src\main\resources" />
@@ -58,8 +86,15 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Run">
+  <component name="RunManager" selected="Application.Run2">
     <configuration name="Run" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CarRental" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run2" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CarRental" />
       <method v="2">
@@ -74,10 +109,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthLoginUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CarRental" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CarServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="AuthLoginUtilsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,19 +147,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.Run" />
+      <item itemvalue="Application.Run2" />
+      <item itemvalue="JUnit.AuthLoginUtilsTest" />
       <item itemvalue="JUnit.All in CarRental" />
-      <item itemvalue="JUnit.CarServiceTest" />
       <item itemvalue="JUnit.CustomerServiceTest" />
       <item itemvalue="JUnit.EmployeeServiceTest" />
       <item itemvalue="JUnit.RentalServiceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AuthLoginUtilsTest" />
         <item itemvalue="JUnit.All in CarRental" />
         <item itemvalue="JUnit.RentalServiceTest" />
         <item itemvalue="JUnit.EmployeeServiceTest" />
         <item itemvalue="JUnit.CustomerServiceTest" />
-        <item itemvalue="JUnit.CarServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +173,14 @@
       <option name="presentableId" value="Default" />
       <updated>1746826093588</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1747907036569</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747907036569</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +193,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CarRental$All_in_CarRental.ic" NAME="All in CarRental Coverage Results" MODIFIED="1747162228572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
